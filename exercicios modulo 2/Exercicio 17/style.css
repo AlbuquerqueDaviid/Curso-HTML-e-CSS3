@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+     font-family: 'work Sans', Arial, Helvetica, sans-serif;
+     /* Medidas Absolutas:
+          cm, mm, in, px, pt, pc
+     
+        Medidas Relativas:
+          em, ex, rem, vw, vh, %
+
+          - Normalmente se usa -> em  ou  -> px  para web sites recomendado pela w3c
+          - 16px geralmente é igual a 1em
+        */
+          font-size: 1em;
+          font-weight: normal;
+          font-style: italic;
+          text-decoration: underline;
+        
+        /* font-weight -> lighter normal bold bolder */
+        /* font-style -> normal italic ... */
+        /* font-decoration -> underline = sublinhado */
+
+        /* shorthand font 
+        - font-style -> font-weight -> font-size -> font-family */
+        font: italic bolder 1em 'Work Sans', sans-serif;
+      }
+      h2 {
+         font: bold 2em sans-serif;     
+
+
+
+
+      }
